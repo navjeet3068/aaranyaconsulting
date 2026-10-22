@@ -1695,6 +1695,19 @@ body footer .footer-bottom a{color:#d8e4f3;text-decoration:none}
 #drafting-support.capability-section .capability-heading h2 .capability-title-white{color:#fff!important}
 #drafting-support.capability-section .capability-heading h2 .capability-title-blue{color:#2864dc!important}
 
+@media(max-width:720px){
+  .hero-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .hero-actions .button{width:100%;min-width:0;padding:12px 8px;gap:6px;font-size:clamp(.72rem,3.5vw,.9rem);white-space:nowrap}
+  .hero-actions .button svg{width:15px;flex:none}
+  #drafting-support.capability-section .capability-heading h2{font-size:clamp(1.45rem,7.2vw,3.1rem);line-height:1.1;white-space:normal}
+  #drafting-support.capability-section .capability-services-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  #drafting-support.capability-section .bento-visual{height:clamp(90px,34vw,140px)}
+  #drafting-support.capability-section .bento-body{padding:12px 10px}
+  #drafting-support.capability-section .bento-body h3{font-size:.9rem}
+  #drafting-support.capability-section .bento-tags{gap:5px}
+  #drafting-support.capability-section .bento-tags span{padding:4px 6px;font-size:.62rem}
+}
+
 /* Animated GIF background for the homepage hero */
 #home.hero{
   background-image:linear-gradient(120deg,rgba(6,17,38,.42),rgba(7,26,54,.58)),url("AdobeStock_728416692_3C.gif"),linear-gradient(120deg,#061126 0%,#102b55 34%,#071a36 67%,#0c2448 100%),radial-gradient(ellipse at 74% 28%,rgba(52,120,235,.23),transparent 43%),repeating-linear-gradient(0deg,rgba(164,200,235,.035) 0,rgba(164,200,235,.035) 1px,transparent 1px,transparent 48px),repeating-linear-gradient(90deg,rgba(164,200,235,.035) 0,rgba(164,200,235,.035) 1px,transparent 1px,transparent 48px);
