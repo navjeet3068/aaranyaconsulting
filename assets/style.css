@@ -227,7 +227,7 @@
     .nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:28px}
     .brand{display:flex;align-items:center;gap:11px;font-size:1.35rem;font-weight:800;letter-spacing:-.055em;white-space:nowrap}
     .brand-mark{width:34px;height:34px;border-radius:11px;background:linear-gradient(145deg,#70a6ff,#2561d8);display:grid;place-items:center;color:white;box-shadow:0 7px 16px #2864dc44}
-    .brand-mark svg{width:21px}.brand img{display:block;width:250px;height:auto}.footer-brand .brand img{filter:brightness(0) invert(1)}
+    .brand-mark svg{width:21px}.brand img{display:block;width:250px;height:auto}
     .nav-links{display:flex;align-items:center;gap:30px;font-size:.9rem;font-weight:600;color:#415979}
     .nav-links>a:not(.button):hover{color:var(--blue)}
     .button{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:999px;padding:14px 21px;background:var(--blue);color:white;font-size:.9rem;font-weight:700;box-shadow:0 9px 22px #2864dc30;transition:.2s ease}
