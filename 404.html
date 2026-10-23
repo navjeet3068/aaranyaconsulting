@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#1748a5">
+  <title>Page Not Found | Aaranya Consulting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css?v=shared-shell-responsive-1">
+  <script src="disclaimer.js" defer></script>
+  <style>
+    .not-found{display:grid;min-height:60vh;place-items:center;padding:clamp(3rem,8vw,6rem) 0;background:linear-gradient(115deg,#f4f8ff 0%,#eff6ff 48%,#e4efff 100%)}
+    .not-found-content{width:min(100% - 48px,700px);text-align:center}
+    .not-found-code{display:block;margin-bottom:.75rem;color:#2864dc;font-size:clamp(4rem,14vw,8rem);font-weight:800;letter-spacing:-.08em;line-height:.9}
+    .not-found h1{max-width:none;margin:1.25rem 0 1rem;color:#102a56;font-size:clamp(2rem,5vw,3.25rem)}
+    .not-found p{max-width:38rem;margin:0 auto;color:#526783;font-size:1rem;line-height:1.75}
+    .not-found-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:.85rem;margin-top:1.75rem}
+    .not-found-actions .button-light{box-shadow:none}
+    @media(max-width:520px){.not-found-content{width:min(100% - 36px,560px)}.not-found-actions{align-items:stretch;flex-direction:column}.not-found-actions .button{width:100%}}
+  </style>
+</head>
+<body>
+  <div data-site-header></div>
+  <main class="not-found" aria-labelledby="not-found-title">
+    <section class="not-found-content">
+      <span class="not-found-code" aria-hidden="true">404</span>
+      <h1 id="not-found-title">Page not found</h1>
+      <p>The page you’re looking for may have moved or is no longer available. Try the home page or get in touch with our team.</p>
+      <div class="not-found-actions">
+        <a class="button" href="index.html">Back to home</a>
+        <a class="button button-light" href="contact.html">Contact us</a>
+      </div>
+    </section>
+  </main>
+  <div data-site-footer></div>
+  <script src="site-shell.js" defer></script>
+</body>
+</html>
